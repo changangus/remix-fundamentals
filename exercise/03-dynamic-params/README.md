@@ -64,7 +64,7 @@ export async function loader({ params }: LoaderArgs) {
 
 You can also access the params in your components via the `useParams` hook:
 
-```tsx
+```typescript
 import { useLoaderData, useParams } from "@remix-run/react";
 
 export default function Tweet() {
@@ -113,7 +113,7 @@ We're going to use a simple tool for this called
 It's already installed, all you need to do is use it. Here's a quick example of
 how to use it:
 
-```tsx
+```typescript
 // import marked
 import { marked } from "marked";
 

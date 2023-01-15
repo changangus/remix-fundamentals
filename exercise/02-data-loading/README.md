@@ -1,8 +1,8 @@
 # 02. Data Loading
 
-## 📝 Notes
+## Notes
 
-## 🤓 Background
+## Background
 
 Data loading is built into Remix.
 
@@ -62,7 +62,7 @@ return new Response(JSON.stringify(data), {
 });
 ```
 
-## 💪 Exercise
+## Exercise
 
 We're going to start simple by putting our blog posts directly in the loader to
 start. Here are the blog posts we need to get from our server to the UI:
